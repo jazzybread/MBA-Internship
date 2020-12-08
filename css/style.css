@@ -1,0 +1,102 @@
+
+.container-fluid {
+    display:inline-block;
+    
+}
+.main {
+    padding: 3% 5% 0;
+}
+.me {
+    width: 90%;
+    border-radius: 80%;
+    padding: 0;
+    margin: 0;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+.second {
+    padding: 3% 5% 3%;
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    color: #373a40;
+}
+hr {
+    border-color: #373a40;
+    margin: 0;
+
+}
+.fa {
+    color:#28abb9;
+}
+.company-name {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-size: 15px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    color: #28abb9;
+    padding: 1% 0 1%;
+    margin:0;
+}
+h4 {
+    color:#28abb9;
+    font-size: 13px;
+}
+.certificates {
+    font-size: 14px;
+    padding: 1% 0 0;
+}
+.title {
+    color: #373a40;
+}
+
+@media (max-width: 767px) {
+    .main , .second {
+        text-align: center;
+    }
+    .appeal {
+        text-align: center;
+    }
+    .contact-info{
+        display:block;
+        background-color:#28abb9;
+        color:white;
+    }
+    .fa {
+        color:white;
+    }
+    .skills {
+        padding: 0 0 2%;
+    }
+    .me {
+        width: 50%;
+        display:inline;
+        padding: 2% 3% 3%;
+    }
+    ul {
+        text-align: left;
+    }
+    .title-line {
+    border-color:white;
+    }
+}
+@media (min-width: 1000px) {
+    .container-fluid {
+        padding: 5% 7% 5%;
+    }
+   .appeal {
+       padding: 3% 0 0 0;
+       margin:0;
+   }
+   .me {
+       width: 80%;
+   }
+}
